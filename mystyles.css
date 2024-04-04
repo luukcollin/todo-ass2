@@ -1,0 +1,27 @@
+.lists {
+    display: grid;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .33);
+    grid-template-columns: 1fr 3em 1fr;
+}
+
+.list {
+    display: flex;
+    border: 1px solid black;
+    border-radius: .75em;
+    padding: .6em;
+    flex-direction: column;
+}
+
+#list-1 {
+    grid-column: 1;
+}
+
+#list-2 {
+    grid-column: 3;
+}
+
+.my-checkbox{
+    border: 1px solid orange;
+    padding: .125em;
+}
